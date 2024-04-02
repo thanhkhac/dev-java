@@ -1,0 +1,22 @@
+
+h
+java:S1192"FDefine a constant instead of duplicating this literal "Hello" 3 times.(€Óõºıÿÿÿÿ8áˆÖëé1
+„
+java:S4973"<Strings and Boxed types should be compared using "equals()".(¶äüõûÿÿÿÿ8š›Šëé1J$55de2325-0933-49fd-ace6-778067a02b69
+„
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Â©ÕÉøÿÿÿÿ8š›Šëé1J$da0bd86e-25dc-4528-970c-7d8c9ee3eb18
+h
+java:S2129" Remove this "String" constructor(€Óõºıÿÿÿÿ8»´Õëé1J$6d56a526-8034-41fd-8e4d-b211634bf35a
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¶äüõûÿÿÿÿ8¬›Šëé1J$1c4ee604-1fce-47de-83c3-f2288c0738a5
+r	java:S106"+Replace this use of System.out by a logger.(¶äüõûÿÿÿÿ8­›Šëé1J$be856742-9512-42ac-beed-8ec1fdfe7fe3
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(íïÔ‚ûÿÿÿÿ8­›Šëé1J$1f4f903d-54e9-4e96-95d3-d0092acd8592
+r	java:S106"+Replace this use of System.out by a logger.(íïÔ‚ûÿÿÿÿ8­›Šëé1J$a8e66511-52fc-43ba-afac-d775193f5e39
+m	java:S106"+Replace this use of System.out by a logger.(¬Ãæ8­›Šëé1J$0b0251a5-f98c-4db1-9e91-f27bb4a82a1d
+”
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(—‘©•8¯›Šëé1J$f70c34fa-1959-43e3-991d-e14660b370a9
+m	java:S106"+Replace this use of System.out by a logger.(—‘©•8¯›Šëé1J$18ad72e6-b36d-4545-91be-b3b67b96ddda
+™
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Â©ÕÉøÿÿÿÿ8¯›Šëé1J$60c6e8e4-f61a-4c3b-87ae-30c2b7bfdf73
+r	java:S106"+Replace this use of System.out by a logger.(Â©ÕÉøÿÿÿÿ8¯›Šëé1J$3d189ae2-c9cd-46e3-a290-4ffe04279a80

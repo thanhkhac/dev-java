@@ -1,16 +1,16 @@
 
 z
-java:S1854""7Remove this useless assignment to local variable "arr".(âÂ„Ä8•¸‹éé1J$1c89544f-ce6b-422e-9046-5d99b7dcf337
-r	java:S106"+Replace this use of System.out by a logger.(”ôè·üÿÿÿÿ8•¸‹éé1J$78cfd59d-4b48-460e-96b1-e3f9269c8737
-r	java:S106"+Replace this use of System.out by a logger.(œßÌñşÿÿÿÿ8•¸‹éé1J$2ba7aa76-dbe4-491d-850d-e2cc7a5349c1
+java:S1854""7Remove this useless assignment to local variable "arr".(âÂ„Ä8•¸‹éé1J$abb1574b-b35d-496a-a0f8-4c77ab2f5faf
+r	java:S106"+Replace this use of System.out by a logger.(”ôè·üÿÿÿÿ8•¸‹éé1J$0b75f3bd-a333-4918-abc3-5c02731dec38
+r	java:S106"+Replace this use of System.out by a logger.(œßÌñşÿÿÿÿ8•¸‹éé1J$41b72fd8-1f06-4a72-8e84-302ab619c75e
 k
-java:S1481""(Remove this unused "arr" local variable.(âÂ„Ä8•¸‹éé1J$912f52e9-c583-4c31-88dc-c58381dd8b29
-r	java:S106&"+Replace this use of System.out by a logger.(…ÑßĞøÿÿÿÿ8•¸‹éé1J$ded7c098-936b-45cb-8ee5-a4e90b896f1f
+java:S1481""(Remove this unused "arr" local variable.(âÂ„Ä8•¸‹éé1J$5748273e-dece-4272-b58b-91d6b9a34318
+r	java:S106&"+Replace this use of System.out by a logger.(…ÑßĞøÿÿÿÿ8•¸‹éé1J$2fe7bc00-8807-4de3-84f4-82bb051067df
 ’
-java:S1764&"JCorrect one of the identical sub-expressions on both sides of operator "^"(…ÑßĞøÿÿÿÿ8¸‹éé1J$c9a2471e-2ac0-41e9-bde6-b8fe644465fc
-r	java:S106)"+Replace this use of System.out by a logger.(Ã‡’ûÿÿÿÿ8¸‹éé1J$533765bc-a2e0-4b76-a46f-6eb9f4dbdefc
+java:S1764&"JCorrect one of the identical sub-expressions on both sides of operator "^"(…ÑßĞøÿÿÿÿ8¸‹éé1J$01d47ac1-7521-4ff7-af9c-70d427ab3187
+r	java:S106)"+Replace this use of System.out by a logger.(Ã‡’ûÿÿÿÿ8¸‹éé1J$e3eec3cc-3f11-44db-92b3-df1129886bf4
 ’
-java:S1764)"JCorrect one of the identical sub-expressions on both sides of operator "&"(Ã‡’ûÿÿÿÿ8¸‹éé1J$df654920-25a9-415b-84fc-99dd639c15e2
+java:S1764)"JCorrect one of the identical sub-expressions on both sides of operator "&"(Ã‡’ûÿÿÿÿ8¸‹éé1J$9c6281c7-1568-40db-b6e1-6628a9929af4
 a
-java:S2178)"Correct this "&" to "&&".(Ã‡’ûÿÿÿÿ8Ÿ¸‹éé1J$065f68e9-b94d-4fad-9c2c-a02dea688556
-r	java:S106+"+Replace this use of System.out by a logger.(æÊä¶ÿÿÿÿÿ8Ÿ¸‹éé1J$100ed0dd-0ec2-4c42-a909-a7be4955ba43
+java:S2178)"Correct this "&" to "&&".(Ã‡’ûÿÿÿÿ8Ÿ¸‹éé1J$d5976dd1-0a42-408f-bef8-964a3bc00295
+r	java:S106+"+Replace this use of System.out by a logger.(æÊä¶ÿÿÿÿÿ8Ÿ¸‹éé1J$ce8508fc-6b5d-44d9-bf40-462d61f788da

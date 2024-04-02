@@ -2,7 +2,7 @@ package main;
 
 import java.util.ArrayList;
 
-public class Main {
+public class SyntaxAndBitWise {
     /*
      * Ôn lại về đơn vị bộ nhớ
      * Bit(b): biểu diễn dưới dạng 1010101
@@ -24,7 +24,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //Toán tử
+        //Toán tử Main
         System.out.println(7 >> 2);
         //0111
         //Dịch sang phải 2 => 0001

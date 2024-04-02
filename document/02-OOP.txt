@@ -1,0 +1,37 @@
+I. OOP - Object Oriented Programming
+	a. Khái niệm: 
+		Đối tượng là từ để chỉ người, vật, sự vật, sự vật sự việc trong đời sống
+		là phương pháp lập trình xoay quanh các đối tượng, đưa đối tượng từ bên ngoài vào trong lập trình. 
+	b. Đối tượng trong lập trình
+		Bao gồm 2 thứ đó là thuộc tính và phương thức:
+			- Thuộc tính là các thông tin của đối tượng. Ví dụ như đối tượng người sẽ có tên, tuổi, năm sinh
+			- Phương thức là các hành vi mà đối tượng có thể thực hiện. Ví dụ như là bay, chạy, nhảy, nói
+I. Class
+	- Là một khuôn, mẫu để có thể tạo được đối tượng
+	- Contructor được sử dụng để đổ đầy các giá trị vào thuộc tính của đối tượng
+
+II. 4 tính chất trong lập trình hướng đối tượng
+	*Access modifier
+		- Public: cho phép truy cập từ bất kì đâu
+		- Private: chỉ cho phép trong class
+		- Default: chỉ cho phép truy cập bên trong package
+		- Protected: chỉ cho phép truy cập trong package và trong class, nếu muốn sử dụng từ bên ngoài package thì phải kế thừa
+		*Lưu ý: Protected chỉ áp dụng cho thuộc tính, phương thức, không áp dụng cho class
+				Lý do: Nếu như muốn bảo vệ một class khỏi truy cập từ bên ngoài thì đã có private public. Nếu như cho phép protected áp dụng lên class, sử dụng một class rỗng để kế thừa, vậy thì lúc này nó là public :v
+
+	1. Tính đóng gói - ENCAPSULATION
+		a. Đóng gói là gì?:  
+			Được sử dụng để ẩn đi các chi tiết của một đối tượng và chỉ hiển thị các thuộc tính, phương thức cần thiết để sử dụng.
+		b. Tại sao phải sử dụng tính đóng gói?
+			- Ẩn dữ liệu: hạn chế quyền truy cập từ bên ngoài. Có thể có một số thuộc tính sẽ không cho phép lấy ra hay đặt lại. Hoặc là một số thuộc tính chỉ đọc (Chẳng hạn như tên tuổi)
+			- 
+		c. Cách thực thi: 
+			Đặt phạm vi truy cập của các thuộc tính là private và sử dụng các hàm getter setter để có thể tương tác với thuộc tính.
+	2. Tính kế thừa
+		a. Kế thừa là gì?: Là một tính chất cho phép một class có thể tiếp nhận các thuộc tính và phương thức của một class khác. 
+
+		b. Tại sao phải sử dụng?: Tái sử dụng code, giảm độ lặp
+
+		
+
+		

@@ -12,3 +12,7 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+N
+src/main/SyntaxAndBitWise.java,d\8\d8798aec99c5c4e1105f7ff7a0452e398af1d71d
+G
+src/main/XuLyChuoi.java,d\9\d9e1f0b0cfb618a413b8400361604dfc683d8da8

@@ -1,0 +1,16 @@
+
+z
+java:S1854""7Remove this useless assignment to local variable "arr".(âÂ„Ä8•¸‹éé1J$964468f1-f01f-4592-b1d5-c1c57a47f9f2
+r	java:S106"+Replace this use of System.out by a logger.(”ôè·üÿÿÿÿ8•¸‹éé1J$67f383fc-7e34-44ee-bc12-8df98dccc09f
+r	java:S106"+Replace this use of System.out by a logger.(œßÌñşÿÿÿÿ8•¸‹éé1J$857987ed-97b0-4629-ae2e-051b9a65881d
+k
+java:S1481""(Remove this unused "arr" local variable.(âÂ„Ä8•¸‹éé1J$c7bf5d72-db35-45b5-927b-303ee327aa03
+r	java:S106&"+Replace this use of System.out by a logger.(…ÑßĞøÿÿÿÿ8•¸‹éé1J$3034a5ce-30b8-40ba-bd5d-500f294de9fb
+’
+java:S1764&"JCorrect one of the identical sub-expressions on both sides of operator "^"(…ÑßĞøÿÿÿÿ8¸‹éé1J$9f788623-ec28-4153-b532-f155f14f139b
+r	java:S106)"+Replace this use of System.out by a logger.(Ã‡’ûÿÿÿÿ8¸‹éé1J$b2c68ebf-b722-4c3c-884f-317dffb95209
+’
+java:S1764)"JCorrect one of the identical sub-expressions on both sides of operator "&"(Ã‡’ûÿÿÿÿ8¸‹éé1J$6ef8baca-6b6a-48da-9d69-dd44e301b13e
+a
+java:S2178)"Correct this "&" to "&&".(Ã‡’ûÿÿÿÿ8Ÿ¸‹éé1J$9dd9941c-bb4d-490c-b23f-f39ba3f17bfe
+r	java:S106+"+Replace this use of System.out by a logger.(æÊä¶ÿÿÿÿÿ8Ÿ¸‹éé1J$2a3828c3-5435-42a5-94b2-898bc0f8bbdb

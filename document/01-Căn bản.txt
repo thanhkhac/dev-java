@@ -1,0 +1,25 @@
+I. Xử lý chuỗi	
+	1. So sánh chuỗi
+		a. equals
+			- Giá trị trả về: boolean
+			- So sánh từng ký tự trong hai chuỗi để xác định xem chúng có giống nhau không
+		b. compareTo
+			- Giá trị trả về: int
+			- So sánh từng ký tự trong hai chuỗi theo thứ tự của bảng mã Unicode và trả về độ chênh lệch của 2 kĩ tự khác nhau đầu tiên
+			- Ví dụ (Note chữ hoa có giá trị nhỏ hơn chữ thường)
+				Hello compareTo Hello => Trả về 0, không có sự khác biệt
+				Hello compareTo HellO => Trả về 32, do kí tự 'o' - 'O' = 32 
+				Hello compareTo HellOOOOOOOO => Vẫn trả về 32, do kí tự 'o' - 'O' = 32 và trả về sự khác nhau đầu tiên
+	2. Khai báo String
+		String pool là một nơi trong bộ nhớ được sử dụng để lưu trữ các chuỗi.
+
+		Khai bằng bằng toán từ khóa new thì sẽ khởi tạo một đối tượng chuỗi bộ nhớ 
+		Khai báo bằng "" thì sẽ tìm kiếm trong string pool đã có chuỗi đó chưa, chưa thì thêm vào string pool và trả về địa chỉ.
+II. Overload và Override
+	1. Overload:
+		Định nghĩa nhiều phương thức có cùng tên trong một class, nhưng phải khác 1 trong 2 điều kiện:
+			1. Số lượng tham số khác nhau
+			2. Kiểu dữ liệu tham số khác nhau
+	2. Override
+		- Sử dụng khi kế thừa
+		- Khai báo một phương thức đã có ở lớp cha và thay đổi
