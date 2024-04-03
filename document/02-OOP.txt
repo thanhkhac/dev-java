@@ -6,18 +6,22 @@ I. OOP - Object Oriented Programming
 		Bao gồm 2 thứ đó là thuộc tính và phương thức:
 			- Thuộc tính là các thông tin của đối tượng. Ví dụ như đối tượng người sẽ có tên, tuổi, năm sinh
 			- Phương thức là các hành vi mà đối tượng có thể thực hiện. Ví dụ như là bay, chạy, nhảy, nói
+
+
 I. Class
 	- Là một khuôn, mẫu để có thể tạo được đối tượng
 	- Contructor được sử dụng để đổ đầy các giá trị vào thuộc tính của đối tượng
 
+
 II. 4 tính chất trong lập trình hướng đối tượng
+
 	*Access modifier
 		- Public: cho phép truy cập từ bất kì đâu
 		- Private: chỉ cho phép trong class
 		- Default: chỉ cho phép truy cập bên trong package
 		- Protected: chỉ cho phép truy cập trong package và trong class, nếu muốn sử dụng từ bên ngoài package thì phải kế thừa
 		*Lưu ý: Protected chỉ áp dụng cho thuộc tính, phương thức, không áp dụng cho class
-				Lý do: Nếu như muốn bảo vệ một class khỏi truy cập từ bên ngoài thì đã có private public. Nếu như cho phép protected áp dụng lên class, sử dụng một class rỗng để kế thừa, vậy thì lúc này nó là public :v
+				Lý do: Nếu như muốn bảo vệ một class khỏi truy cập từ bên ngoài thì đã có private public. Nếu như cho phép protected áp dụng lên class, sử dụng một class rỗng để kế thừa, vậy thì lúc này nó là public
 
 	1. Tính đóng gói - ENCAPSULATION
 		a. Đóng gói là gì?:  
@@ -27,10 +31,64 @@ II. 4 tính chất trong lập trình hướng đối tượng
 			- 
 		c. Cách thực thi: 
 			Đặt phạm vi truy cập của các thuộc tính là private và sử dụng các hàm getter setter để có thể tương tác với thuộc tính.
+	
 	2. Tính kế thừa
 		a. Kế thừa là gì?: Là một tính chất cho phép một class có thể tiếp nhận các thuộc tính và phương thức của một class khác. 
-
 		b. Tại sao phải sử dụng?: Tái sử dụng code, giảm độ lặp
+	
+	3. Tính trừu tượng
+		a. Khái niệm, định nghĩa chung
+			- Abstract class: là một lớp mà không thể tạo ra một đối tượng từ nó
+			- Abstract method: là một phương thức không có triển khai cụ thể	
+			- Interface là một tập hợp các phương thức trừu tượng và các hằng
+			- Một lớp có thể triển khai nhiều interface
+			- Tất cả phương thức trong interface mặc định sẽ là trừu tượng và có phạm vi truy cập public
+
+		b. Tại sao phải sử dụng abstract
+			- Khi chúng ta muốn tạo ra một class để tổng quát hóa các thông tin và hành vi mà class con phải có (Nếu class con không triển khai các phương thức của class cha thì sẽ báo lỗi)
+		c. 2 cách triển khai trừu tượng:
+			1: Triển khai với abstract class
+			2: Triển khai với interface
+		d. Các hằng của interface:
+			Chỉ có thể thể sử dụng bên trong class implement interface hoặc gọi trực tiếp từ interface
+			Ví dụ 1:		
+				interface SinhVat{
+				    int a = 5;
+				}
+
+				class DongVat implements SinhVat{
+				    public abstract void tiengKeu(
+				    	//có thể truy cập tại đây
+				    	System.out.println(a);
+				    );
+				}
+			Ví dụ 2:
+			    public static void main(String[] args) {
+			        DongVat roBeo = new DongVat();
+			        //Không hợp lệ:
+			        System.out.println(roBeo.a);
+			        //Hợp lệ:
+			        System.out.println(SinhVat.a);
+			    }		
+	    4. Tính đa hình	
+	    	1. Upcasting và downcasting
+	    		- Upcasting: là quá trình ép kiểu một đối tượng từ lớp con lên lớp cha
+	    			Animal dog = new Dog("Rô béo");
+	    			//Cách viết khác
+	    			Dog temp = new Dog("Rô béo");
+    				Animal dog = temp;
+
+    			- Downcasting: là quá trình ép kiểu từ lớp cha xuống lớp con
+			        Animal cat2 = new Cat("Rô béo");
+			        //cat2.climb(); => Không được
+			        ((Cat)cat2).climb();
+
+
+
+
+
+
+
 
 		
 
